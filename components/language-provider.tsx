@@ -74,7 +74,7 @@ const translations: Translations = {
         },
         {
           title: "Atención al Cliente (Personal Flow)",
-          period: "Jul 2022 - Presente",
+          period: "Jul 2022 - Oct 2022",
           description: "Soporte técnico y resolución de consultas en call center.",
         },
         {
@@ -88,6 +88,13 @@ const translations: Translations = {
       title: "Portafolio",
       viewProject: "Ver Proyecto",
       projects: [
+        {
+          title: "Clover Digital",
+          category: "Next JS",
+          description: "Diseño en Next JS con navegación fluida",
+          url: "https://cloverdigital.vercel.app/",
+          image: "https://i.postimg.cc/855ZZYJg/Clover-Digital-Servicios-Digitales-en-Buenos-Aires-cloverdigital-vercel-app.png",
+        },
         {
           title: "Pasión por la Náutica",
           category: "React JS",
@@ -196,7 +203,7 @@ const translations: Translations = {
         },
         {
           title: "Customer Service (Personal Flow)",
-          period: "Jul 2022 - Present",
+          period: "Jul 2022 - Oct 2022",
           description: "Technical support and query resolution in call center.",
         },
         {
@@ -209,64 +216,70 @@ const translations: Translations = {
     portfolio: {
       title: "Portfolio",
       viewProject: "View Project",
-      projects: [
-        {
-          title: "Looki Bar",
-          category: "React JS",
-          description: "Modern design, WhatsApp ordering system and menu editable from Google Sheets",
-          url: "https://lookibar.vercel.app",
-          image: "/placeholder.svg?height=200&width=300",
-        },
-        {
-          title: "Plim Plim",
-          category: "Tienda Nube",
-          description: "Attractive store with children's catalog adapted to online sales",
-          url: "https://plimplimpanalerayartdebeb.mitiendanube.com",
-          image: "/placeholder.svg?height=200&width=300",
-        },
-        {
-          title: "Matilda Calzados",
-          category: "Tienda Nube",
-          description: "Complete development, efficient product loading and search engine optimization",
-          url: "https://matildacalzados.mitiendanube.com",
-          image: "/placeholder.svg?height=200&width=300",
-        },
-        {
-          title: "Estampa",
-          category: "Tienda Nube",
-          description: "E-commerce with intuitive interface, optimized catalog and SEO strategies",
-          url: "https://estampa15.mitiendanube.com",
-          image: "/placeholder.svg?height=200&width=300",
-        },
-        {
-          title: "Ringo Intimates",
-          category: "Tienda Nube",
-          description: "Complete branding, product photography, optimized SEO and improved shopping experience",
-          url: "https://ringointimates2.mitiendanube.com",
-          image: "/placeholder.svg?height=200&width=300",
-        },
-        {
-          title: "SDA – Servicios de Aire Acondicionado",
-          category: "HTML/CSS/JS",
-          description: "Institutional website with gallery, useful links and modern design from scratch",
-          url: "https://www.sda-sa.com.ar",
-          image: "/placeholder.svg?height=200&width=300",
-        },
-        {
-          title: "Marine Park",
-          category: "HTML/CSS/JS",
-          description:
-            "One-page site design for a nautical marina. Clear interface, social media links and direct contact",
-          url: "https://www.mpark.com.ar",
-          image: "/placeholder.svg?height=200&width=300",
-        },
-        {
-          title: "Pasión por la Náutica",
-          category: "React JS",
-          description: "React design with fluid navigation and GitHub repository",
-          url: "https://pasionporlanautica.com",
-          image: "/placeholder.svg?height=200&width=300",
-        },
+projects: [
+  {
+    title: "Clover Digital",
+    category: "Next JS",
+    description: "Design in Next JS with smooth navigation",
+    url: "https://cloverdigital.vercel.app/",
+    image: "https://i.postimg.cc/855ZZYJg/Clover-Digital-Servicios-Digitales-en-Buenos-Aires-cloverdigital-vercel-app.png",
+  },
+  {
+    title: "Passion for Nautical",
+    category: "React JS",
+    description: "Design in React with smooth navigation and GitHub repository",
+    url: "https://pasionporlanautica.com",
+    image: "https://i.postimg.cc/25mXZ0Sd/Pasi-n-por-la-N-utica-www-pasionporlanautica-com.png",
+  },
+  {
+    title: "Plim Plim",
+    category: "Tienda Nube",
+    description: "Attractive store with a children's catalog adapted for online sales",
+    url: "https://plimplimpanalerayartdebeb.mitiendanube.com",
+    image: "https://i.postimg.cc/bJV648HL/Tienda-Online-de-Plim-Plim-Pa-alera-y-Art-de-beb-plimplimpanalerayartdebeb-mitiendanube-com.png",
+  },
+  {
+    title: "Looki Bar",
+    category: "React JS",
+    description: "Modern design, WhatsApp ordering system, and editable menu from Google Sheets",
+    url: "https://lookibar.vercel.app",
+    image: "https://i.postimg.cc/G3SN5PXr/Looki-Bar-Men-Digital-Bar-y-Restaurante-en-Pilar-lookibar-vercel-app.png",
+  },
+  {
+    title: "Estampa",
+    category: "Tienda Nube",
+    description: "E-commerce with intuitive interface, optimized catalog, and SEO strategies",
+    url: "https://estampa15.mitiendanube.com",
+    image: "https://i.postimg.cc/J4DgVyFX/Estampa-estampa15-mitiendanube.com.png",
+  },
+  {
+    title: "Ringo Intimates",
+    category: "Tienda Nube",
+    description: "Complete branding, product photography, optimized SEO, and improved shopping experience",
+    url: "https://ringointimates2.mitiendanube.com",
+    image: "https://i.postimg.cc/fLR2HkXJ/Ringo-Intimates-ringointimates2-mitiendanube-com.png",
+  },
+  {
+    title: "SDA – Air Conditioning Services",
+    category: "HTML/CSS/JS",
+    description: "Institutional website with gallery, useful links, and modern design from scratch",
+    url: "https://www.sda-sa.com.ar",
+    image: "https://i.postimg.cc/pdZcYKmw/SERVICIOS-DE-AIRE-ACONDICIONADO-S-A-www-sda-sa-com-ar.png",
+  },
+  {
+    title: "Marine Park",
+    category: "HTML/CSS/JS",
+    description: "One-page site design for a nautical daycare. Clear interface, social media links, and direct contact",
+    url: "https://www.mpark.com.ar",
+    image: "https://i.postimg.cc/QdcyC2hx/MARINE_PARK_-_[www.mpark.com.ar].png",
+  },
+  {
+    title: "Matilda Calzados",
+    category: "Tienda Nube",
+    description: "Complete development, efficient product loading, and search engine optimization",
+    url: "https://matildacalzados.mitiendanube.com",
+    image: "https://i.postimg.cc/BQrzqSWV/Matilda-Calzados-matildacalzados-mitiendanube-com.png",
+  },
       ],
     },
     downloadCV: {

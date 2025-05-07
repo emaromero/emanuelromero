@@ -51,7 +51,6 @@ export default function Navbar() {
   const navItems = [
     { id: "header", label: { es: "Inicio", en: "Home" } },
     { id: "about", label: { es: "Sobre Mí", en: "About Me" } },
-    { id: "clover-digital", label: { es: "Clover Digital", en: "Clover Digital" } },
     { id: "experience", label: { es: "Experiencia", en: "Experience" } },
     { id: "portfolio", label: { es: "Portafolio", en: "Portfolio" } },
     { id: "contact", label: { es: "Contacto", en: "Contact" } },

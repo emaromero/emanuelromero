@@ -9,7 +9,6 @@ import Portfolio from "@/components/portfolio"
 import DownloadCV from "@/components/download-cv"
 import Contact from "@/components/contact"
 import { useLanguage } from "@/components/language-provider"
-import CloverDigital from "@/components/clover-digital"
 import Navbar from "@/components/navbar"
 
 export default function Home() {
@@ -45,7 +44,6 @@ export default function Home() {
 
         <div className="container mx-auto px-4 py-8">
           <AboutMe />
-          <CloverDigital />
           <Experience />
           <Portfolio />
           <DownloadCV />

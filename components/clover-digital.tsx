@@ -30,7 +30,7 @@ export default function CloverDigital() {
                 <div className="absolute inset-0 bg-gradient-to-r from-[#003A52]/80 to-[#098486]/80 z-10 flex items-center justify-center">
                   <h3 className="text-4xl font-bold text-white">Clover Digital</h3>
                 </div>
-                <Image src="/placeholder.svg?height=400&width=600" alt="Clover Digital" fill className="object-cover" />
+                <Image src="https://i.postimg.cc/855ZZYJg/Clover-Digital-Servicios-Digitales-en-Buenos-Aires-cloverdigital-vercel-app.png" alt="Clover Digital" fill className="object-cover" />
               </div>
             </motion.div>
 
