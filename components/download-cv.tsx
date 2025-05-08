@@ -21,7 +21,7 @@ export default function DownloadCV() {
           </h2>
 
           <motion.a
-            href="https://drive.google.com/file/d/1hyFVKTIjtZj2n1yi-4XBMUuPN9LVTtWC/view?usp=sharing"
+            href="https://drive.google.com/uc?export=download&id=1hyFVKTIjtZj2n1yi-4XBMUuPN9LVTtWC"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 bg-[#003A52] text-white rounded-md font-semibold text-lg hover:bg-[#00667A] transition-colors duration-300"
